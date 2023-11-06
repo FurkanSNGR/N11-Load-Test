@@ -1,0 +1,1 @@
+jmeter -n -t "path-to-jmx-file" -JthreadCount=1 -JrampUp=1 -Jduration=1 -l "path-to-csv-file" -e -o "path-to-report-address"
